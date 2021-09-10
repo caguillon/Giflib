@@ -13,12 +13,11 @@ public class GifController {
 
     /**
      * Method handles requests to our application root.
-     * @return
      */
     @RequestMapping(value = "/")
-    @ResponseBody
     public String listGifs(){
-        return "List of all the GIFs!";
+        // Returns the string that matches our html template (minus the extension)
+        return "home";
     }
 
     @RequestMapping(value = "/gif")
