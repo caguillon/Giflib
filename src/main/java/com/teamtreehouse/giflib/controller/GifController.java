@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.time.LocalDate;
+import java.util.List;
 
 /**
  * Methods in this class should be related to the object the controller
@@ -26,8 +27,10 @@ public class GifController {
      * Method handles requests to our application root.
      */
     @RequestMapping(value = "/")
-    public String listGifs(){
+    public String listGifs(ModelMap modelMap){
+        List<Gif> allGifs = gifRepository.getAllGifs();
         // Returns the string that matches our html template (minus the extension)
+        modelMap.put("gifs", allGifs);
         return "home";
     }
 
