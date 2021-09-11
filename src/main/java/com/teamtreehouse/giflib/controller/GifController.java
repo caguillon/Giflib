@@ -1,6 +1,8 @@
 package com.teamtreehouse.giflib.controller;
 
+import com.teamtreehouse.giflib.data.GifRepository;
 import com.teamtreehouse.giflib.model.Gif;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +17,10 @@ import java.time.LocalDate;
 @Controller
 public class GifController {
 
+    // Reference to a GifRepository object (to gain access)
+    @Autowired
+    private GifRepository gifRepository;
+
     /**
      * Method handles requests to our application root.
      */
@@ -26,7 +32,7 @@ public class GifController {
 
     @RequestMapping(value = "/gif")
     public String gifDetails(ModelMap modelMap){
-        Gif gif = new Gif("cowboy-coder", LocalDate.of(2015,2,13), "Peter Parker", true);
+        Gif gif = gifRepository.findByName("cowboy-coder");
         modelMap.put("gif", gif);
         return "gif-details";
     }
