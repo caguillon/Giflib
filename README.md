@@ -26,7 +26,7 @@ Additional functionality pending (Favorites Page and Search Page)
 
 ## Open-source tool(s) used
 
-- [Spring Boot](https://github.com/loopj/android-async-http)
+- [Spring Boot](https://spring.io/)
 
 ## License
 
