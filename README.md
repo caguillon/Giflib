@@ -13,6 +13,7 @@ The following **required** functionality is completed:
 * [x] User can **view the gif details** when they select a gif in the home page
 * [x] User can **directly go a gif by typing the associated gif's URI** in a browsers search bar
 * [x] User can **select a category** in the categories page
+* [x] User can **view all favorite gifs** in the favorites page
 
 ## Video Walkthrough
 
@@ -22,7 +23,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Additional functionality pending (Favorites Page and Search Page)
+Additional functionality pending (Search Page)
 
 ## Open-source tool(s) used
 
