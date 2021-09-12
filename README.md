@@ -1,7 +1,7 @@
 # Giflib
 Spring Basics - Treehouse Tutorial
 
-**Giflib** is a web application that serves as an animated gif library using Spring
+**Giflib** is a web application that serves as an animated gif library using Spring.
 
 Time spent: **16** hours spent in total
 
@@ -24,7 +24,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Additional functionality pending (Search Page)
+Became familiar with IntelliJ IDEA and now have a better understanding of Spring Boot / Framework.
 
 ## Open-source tool(s) used
 
