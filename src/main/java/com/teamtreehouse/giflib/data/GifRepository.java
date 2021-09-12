@@ -52,4 +52,14 @@ public class GifRepository {
         }
         return favoriteGifs;
     }
+
+    public List<Gif> search(String name) {
+        List<Gif> search = new ArrayList<>();
+        for(Gif gif : ALL_GIFS){
+            if(gif.getName().equalsIgnoreCase(name)){
+                search.add(gif);
+            }
+        }
+        return search;
+    }
 }
