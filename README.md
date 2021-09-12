@@ -3,7 +3,7 @@ Spring Basics - Treehouse Tutorial
 
 **Giflib** is a web application that serves as an animated gif library using Spring
 
-Time spent: **15** hours spent in total
+Time spent: **16** hours spent in total
 
 ## User Stories
 
@@ -14,10 +14,11 @@ The following **required** functionality is completed:
 * [x] User can **directly go a gif by typing the associated gif's URI** in a browsers search bar
 * [x] User can **select a category** in the categories page
 * [x] User can **view all favorite gifs** in the favorites page
+* [x] User can **search for a gif** in any page using the search bar
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories: [Imgur](https://imgur.com/Ik8Q1CS)
+Here's a walkthrough of implemented user stories: [Imgur](https://imgur.com/RfiDYrv)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
